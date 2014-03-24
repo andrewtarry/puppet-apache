@@ -1,5 +1,5 @@
 # File Managed by Puppet
-<% if @port != 80 && @port != 443 -%>
+<% if @port != '80' && @port != '443' -%>
 Listen <%= @port %>
 <% end -%>
 
